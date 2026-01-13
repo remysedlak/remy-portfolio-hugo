@@ -2,7 +2,7 @@
 title: Contact
 links:
   - title: GitHub
-    description: Check out my code repositories and open source projects
+    description: Check out my open source projects
     website: https://github.com/remysedlak
     image: /images/github-mark.svg
   - title: LinkedIn
