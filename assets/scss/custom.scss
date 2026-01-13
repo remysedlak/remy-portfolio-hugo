@@ -2,6 +2,25 @@
     You can add your own custom styles here.
 */
 
+/* Fix image and caption layout in articles */
+.article-content img {
+  max-width: 500px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 1.5rem auto !important;
+}
+
+.article-content p > img {
+  margin-bottom: 0.5rem !important;
+}
+
+.article-content p > em {
+  display: block !important;
+  margin-top: 0.5rem !important;
+  text-align: center !important;
+  font-style: italic;
+}
+
 /* Style for article images with captions */
 figure {
   display: block;
