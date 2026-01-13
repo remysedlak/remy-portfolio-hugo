@@ -2,6 +2,26 @@
     You can add your own custom styles here.
 */
 
+/* Style for article images with captions */
+figure {
+  display: block;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
+figcaption {
+  font-style: italic;
+  color: var(--article-text-color-secondary, #999);
+  font-size: 0.9em;
+}
+
 /* Reduce size of link images */
 .article-list--compact.links .article-image {
   max-height: 80px;
