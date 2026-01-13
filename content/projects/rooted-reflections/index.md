@@ -2,7 +2,7 @@
 title: Rooted Reflections
 description: An AI anxiety predictor trained on student mental health data
 slug: rooted-reflections
-date: 2025-01-10 00:00:00+0000
+date: 2025-10-21 00:00:00+0000
 image: rooted-reflections.webp
 categories:
     - Projects
