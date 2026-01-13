@@ -2,7 +2,7 @@
 title: Third Place at SteelHacks
 description: SteelHacks XII - ML anxiety predictor web app
 slug: steelhacks-2025
-date: 2025-9-21 00:00:00+0000
+date: 2025-09-21 00:00:00+0000
 categories:
     - Experience
 tags:
