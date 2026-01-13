@@ -7,8 +7,8 @@ categories:
     - Experience
 tags:
     - Internship
-    - Backend Development
-    - Data Engineering
+    - B2B Integration
+    - Zendesk
 ---
 
 **Duration:** 16 weeks
