@@ -2,7 +2,7 @@
 title: Peer Tutoring
 description: One-on-one tutoring for SCI courses at Pitt
 slug: peer-tutoring
-date: 2025-01-01 00:00:00+0000
+date: 2024-12-17 00:00:00+0000
 categories:
     - Experience
 tags:

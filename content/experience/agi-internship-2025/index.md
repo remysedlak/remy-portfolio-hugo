@@ -2,7 +2,7 @@
 title: Internship @ AGI
 description: Summer internship focused on backend development and data engineering
 slug: agi-internship-2025
-date: 2025-01-05 00:00:00+0000
+date: 2025-08-20 00:00:00+0000
 categories:
     - Experience
 tags:
