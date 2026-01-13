@@ -1,0 +1,25 @@
+# Configure main menu and social menu
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/remysedlak"
+
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://linkedin.com/in/remysedlak"
+
+[social.params]
+icon = "brand-linkedin"
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto:remysedlak@gmail.com"
+
+[social.params]
+icon = "mail"
