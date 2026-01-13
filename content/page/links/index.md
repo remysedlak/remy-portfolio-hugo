@@ -1,5 +1,6 @@
 ---
 title: Contact
+readingTime: false
 links:
   - title: GitHub
     description: Check out my open source projects
