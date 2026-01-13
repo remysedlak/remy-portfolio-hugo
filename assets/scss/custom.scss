@@ -2,12 +2,18 @@
     You can add your own custom styles here.
 */
 
-/* Fix image and caption layout in articles */
+/* Fix image and caption layout in articles - responsive */
 .article-content img {
-  max-width: 500px !important;
+  max-width: 90vw !important;
   height: auto !important;
   display: block !important;
   margin: 1.5rem auto !important;
+}
+
+@media (min-width: 768px) {
+  .article-content img {
+    max-width: 500px !important;
+  }
 }
 
 .article-content p > img {
@@ -41,7 +47,7 @@ figcaption {
   font-size: 0.9em;
 }
 
-/* Reduce size of link images */
+/* Reduce size of link images - responsive */
 .article-list--compact.links .article-image {
   max-height: 80px;
   max-width: 80px;
@@ -54,4 +60,55 @@ figcaption {
   object-fit: contain;
   width: auto;
   height: auto;
+}
+
+/* Sidebar social icons - ensure they don't get cut off on mobile */
+.sidebar {
+  overflow-x: hidden;
+}
+
+.sidebar-avatar {
+  max-width: 100%;
+}
+
+.sidebar-avatar img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* GitHub logo and social links - ensure proper sizing on mobile */
+.social-links img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-links a {
+  display: inline-block;
+  overflow: visible;
+}
+
+/* About page images - responsive */
+.article-content > * img,
+.page-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/* Ensure no horizontal scrolling */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Mobile viewport fixes */
+@media (max-width: 767px) {
+  .article-content img {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
