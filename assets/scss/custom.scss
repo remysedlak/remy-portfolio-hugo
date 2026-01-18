@@ -131,6 +131,20 @@ body, html {
   overflow-x: hidden;
 }
 
+/* Flatten link hover so text stays readable */
+a.link {
+  box-shadow: none !important;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+a.link:hover {
+  box-shadow: none !important;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  background: transparent;
+}
+
 /* Mobile viewport fixes */
 @media (max-width: 767px) {
   .article-content img {
