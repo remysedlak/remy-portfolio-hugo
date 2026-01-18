@@ -1,6 +1,37 @@
-/*
-    You can add your own custom styles here.
-*/
+/* Custom color palette to replace the default gray */
+:root {
+  --body-background: #fdf7f0;
+  --card-background: #ffffff;
+  --card-background-selected: #ffe8cc;
+  --card-text-color-main: #1f1b16;
+  --card-text-color-secondary: #4d443b;
+  --card-text-color-tertiary: #7a6d61;
+  --card-separator-color: rgba(31, 27, 22, 0.12);
+  --body-text-color: #4d443b;
+  --accent-color: #ff7a59;
+  --accent-color-darker: #e05f3f;
+  --accent-color-text: #fff;
+  --blockquote-background-color: #fff2e3;
+  --scrollbar-thumb: #f0c9a4;
+  --scrollbar-track: var(--body-background);
+}
+
+:root[data-scheme="dark"] {
+  --body-background: #1d1410;
+  --card-background: #251915;
+  --card-background-selected: #3a241d;
+  --card-text-color-main: #f7ede5;
+  --card-text-color-secondary: #d7c5b7;
+  --card-text-color-tertiary: #b39d8b;
+  --card-separator-color: rgba(247, 237, 229, 0.16);
+  --body-text-color: #d7c5b7;
+  --accent-color: #ff9a76;
+  --accent-color-darker: #ff7a59;
+  --accent-color-text: #120c09;
+  --blockquote-background-color: #2f1f18;
+  --scrollbar-thumb: #7a4b38;
+  --scrollbar-track: var(--body-background);
+}
 
 /* Fix image and caption layout in articles - responsive */
 .article-content img {
